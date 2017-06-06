@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:latest
 MAINTAINER Onni Hakala <onni@keksi.io>
 
 RUN apk add --update openssl \
